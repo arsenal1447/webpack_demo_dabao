@@ -34,3 +34,9 @@ document.getElementById('content').innerText = 'This is admin page!@';
 
 
 ![](https://github.com/zxx1988328/webpack_demo_dabao/blob/master/imgs/loader.png)
+
+
+## 加载背景图片文件
+
+
+![](https://github.com/zxx1988328/webpack_demo_dabao/blob/master/imgs/file_loader.png)
