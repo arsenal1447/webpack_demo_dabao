@@ -1,13 +1,15 @@
 var path = require('path');
 
-module.exports = {
-  entry :{    
-    admin:'./admin/index.js',
-    cousumer:'./cousumer/index.js'
+var config = {
+  entry: {
+    admin: './admin/index.js',
+    consumer: './consumer/index.js'
   },
-  output:{
-    path:path.join(__dirname,'dist'),
+  output: {
+    path: path.join(__dirname, 'dist'),
     publicPath: '/dist/',
     filename: '[name].bundle.js'
   }
-}
+};
+
+module.exports = config;

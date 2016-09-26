@@ -4,3 +4,8 @@
 webpack --process --color 
 ```
 
+
+#run the project
+```
+npm start
+```
