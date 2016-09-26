@@ -1,1 +1,1 @@
-document.getElementById('content').innerText = 'This is admin page';
+document.getElementById('content').innerText = 'This is admin page!@';
