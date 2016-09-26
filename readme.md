@@ -23,3 +23,14 @@ npm start
 执行结果
 
 ![](https://github.com/zxx1988328/webpack_demo_dabao/blob/master/imgs/compress.png)
+
+
+## 加载样式 ，文件 admin/index.js
+```
+require('style!css!./admin.css');//css!变成字符串 style!加载到页面中去
+
+document.getElementById('content').innerText = 'This is admin page!@';
+```
+
+
+![](https://github.com/zxx1988328/webpack_demo_dabao/blob/master/imgs/loader.png)
