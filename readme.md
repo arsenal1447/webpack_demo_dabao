@@ -10,13 +10,13 @@ webpack --process --color
 npm start
 ```
 
-## 增加打包功能 文件webpack.config.js增加插件模块
+## 增加打包功能 文件webpack.config.js增加插件模块UglifyJsPlugin
 ```
   plugins:[
     new webpack.optimize.UglifyJsPlugin()
   ],
 ```
-命令行执行命令 ,文件都被压缩成一行
+命令行执行命令 ,dist/目录下的文件都被被压缩成一行
 
 >webpack
 
