@@ -22,4 +22,4 @@ npm start
 
 执行结果
 
-!()[]
+![](https://github.com/zxx1988328/webpack_demo_dabao/blob/master/imgs/compress.png)
