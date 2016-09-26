@@ -5,7 +5,7 @@ webpack --process --color
 ```
 
 
-#run the project
+## run the project
 ```
 npm start
 ```
