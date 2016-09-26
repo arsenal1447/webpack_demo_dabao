@@ -16,8 +16,11 @@ var config = {
   },
   module:{
     loaders: [{
-      test:/\.png$/,
+      test:/imgs/,//记载file
       loader:'file'
+    },{
+      test:/icons/,//加载url
+      loader:'url'
     }]
   }
 };
